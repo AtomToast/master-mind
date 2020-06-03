@@ -36,7 +36,6 @@ while attempts_left > 0:
         break
 
     print(f"You guessed {correct_guesses} digits correctly!")
-    correct_guesses = 0
     attempts_left -= 1
 
 print(f"Oops! You're out of attempts! The correct code was {code}")
