@@ -41,7 +41,6 @@ while attempts_left > 0:
 
     print(f"You guessed {correct_guesses} digits correctly! \
           {wrong_position} digits were the correct number but in the wrong position")
-    print(code)
 
     attempts_left -= 1
 
