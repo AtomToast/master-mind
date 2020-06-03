@@ -28,7 +28,7 @@ while attempts_left > 0:
     correct_guesses = 0
 
     for i, v in enumerate(guess):
-        if code[i] == int(v):
+        if code[i] == v:
             correct_guesses += 1
 
     if correct_guesses == 4:
